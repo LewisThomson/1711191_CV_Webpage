@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* Main CSS */
+
+body{
+	
+	background-image: url("Blurry Background.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: azure !important;
+	font-family: "crete-round";
+    
+	
+}
+/*Margin Editors */
+.NeedTopMargin10{
+    
+    margin-top: 10%;
+    
+}
+.NeedTopMargin5{
+    
+    margin-top: 5%;
+}
+
+.NeedTopMargin2.5{
+	
+	margin-top: 2.5%;
+}
+/* Hyperlink Stuff */
+
+A:LINK,  A:VISITED {
+	color:White ;
+	list-style-type: none;
+	text-decoration:none ;
+	text-transform:none ;
+	font-weight:bold;
+	}
+A:HOVER	{
+  	color:#E3CA76 ;
+	text-decoration:none ;
+	text-transform:none ;
+	}
+
+/* Boxes */
+
+.InformationBox{
+	
+	position: relative;
+
+	margin-top: 100px;
+	text-align: center;
+	background-color:#2E75B6;
+	border-radius: 35px;
+	border: 2px solid #FFFFFF ;
+	padding: 10px;
+}
+
+.ContactMeBox{
+	
+	margin-top: 100px;
+	background-color:#2E75B6;
+	border-radius: 35px;
+	border: 2px solid #FFFFFF ;
+	padding: 30px;
+	
+}
+.ContactMeButton{
+	
+	position: relative;
+	margin-top: 100px;
+	
+
+}
+	
+}
+
+/* Extra Text Styling */
+
+H2{
+	text-align: center;
+	border-bottom: solid #FFFFFF;
+	width: 80%;
+	margin: 0 auto
+}
+H3{
+	
+	text-align: center;
+	border-bottom: solid #1F4E79;
+	width: 80%;
+	margin: 0 auto
+}
+
+li{
+	
+	margin-top: 30px;
+	
+}
+
+/* Navigation Bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
